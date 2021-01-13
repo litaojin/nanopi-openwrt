@@ -1,6 +1,7 @@
 name: r2s Lean版openwrt minimal 
 
 on:
+  workflow_dispatch:
   push:
     branches: [ master ]
     paths:
