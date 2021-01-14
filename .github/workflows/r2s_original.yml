@@ -1,6 +1,7 @@
 name: r2s original Build 原版friendlywrt
 
 on:
+  workflow_dispatch:
   push:
     branches: 
       - master
